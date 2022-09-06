@@ -1,24 +1,22 @@
 .quote{
   box-sizing: border-box;
   margin-bottom: 78px;
-
   &__bg{
     padding: 61px 261px 25px 51px;
     background-color: #FFDD00;
     position: relative;
+    min-height: 458px;
   }
   p{
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    color: #000000;
     margin: 0;
     z-index: 2;
     position: relative;
   }
   &__author{
-    font-family: Geometria, sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -38,8 +36,8 @@
 @media (max-width: 1279px) {
   .quote{
     margin-bottom: 60px;
-    .container-block{
-      margin: 0;
+    .maxwidth-theme{
+      padding: 0;
     }
     &__bg{
       padding: 61px 258px 25px 53px;;
@@ -59,6 +57,8 @@
     }
     &__img{
       position: relative;
+      margin-left: auto;
+      margin-right: -30px;
     }
     p{
       font-size: 18px;

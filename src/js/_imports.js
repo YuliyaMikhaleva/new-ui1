@@ -1,3 +1,2 @@
-import './slider';
-import './form';
 import './checkboxes';
+import './mask';

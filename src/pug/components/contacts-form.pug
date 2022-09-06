@@ -5,16 +5,16 @@ section.contacts-form
       <path fill-rule="evenodd" clip-rule="evenodd" d="M82.7135 136.28C132.653 211.134 155.735 300.71 148.19 390.378C185.526 256.992 161.527 113.906 82.7116 0C3.89706 113.905 -20.1022 256.991 17.2338 390.378C9.68872 300.71 32.7713 211.133 82.713 136.28H82.7135Z" fill="#ECECEC"/>
     </svg>
 
-  .contacts__container
+  .maxwidth-theme
     .contacts-form__wrapper
       form.contacts-form__block
         h2 Оставьте заявку
         label.contacts-form__label Ваше имя:
           input
         label.contacts-form__label Телефон:
-          input
+          input(id="phone").phone
         label.contacts-form__label.contacts-form__label--checkbox(for="checkbox-contact") Я согласен на обработку персональных данных
-          input(type="checkbox").contacts-form__checkbox(id="checkbox-contact")
+          input(type="checkbox" id="checkbox-contact").contacts-form__checkbox
         button(type="submit").yellow-btn Отправить
 
       .contacts-form__img
